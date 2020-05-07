@@ -1,0 +1,286 @@
+﻿{"ip": "192.168.9.85", "port": 8081, "user": "admin", "cameraNum": "hunantv", "videoType": 1, "in_data": {"command": {"serverIp": "58.200.131.2", "serverPort": 1935, "pubName": "livetv", "authInfo": "password=123456", "video": {"width": 352.0, "height": 288.0, "bitrate": 200, "iframe": 50, "framerate": 15}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": 8081, "user": "admin", "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e85", "videoType": 1, "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live/test1", "authInfo": "password=123456", "video": {"width": 352.0, "height": 288.0, "bitrate": 200, "iframe": 50, "framerate": 15}}}}
+{"code": 403, "msg": "无权访问"}
+
+{"ip": "192.168.9.85", "port": 8081, "user": "admin", "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e85", "videoType": 1, "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live/test1", "authInfo": "password=123456", "video": {"width": 352.0, "height": 288.0, "bitrate": 200, "iframe": 50, "framerate": 15}}}}
+{"code": 403, "msg": "无权访问"}
+
+{"ip": "192.168.9.85", "port": 8081, "user": "admin", "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e85", "videoType": 1, "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live/test1", "authInfo": "", "video": {"width": 352.0, "height": 288.0, "bitrate": 200, "iframe": 50, "framerate": 15}}}}
+{"code": 403, "msg": "无权访问"}
+
+{"ip": "192.168.9.85", "port": 8081, "user": "admin", "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e85", "videoType": 1, "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live/test1", "authInfo": "password=123456", "video": {"width": 352.0, "height": 288.0, "bitrate": 200, "iframe": 50, "framerate": 15}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": 8081, "user": "admin", "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e85", "videoType": 1, "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live/test1", "authInfo": "password=123456", "video": {"width": 352.0, "height": 288.0, "bitrate": 200, "iframe": 50, "framerate": 15}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": 8081, "user": "admin", "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e85", "videoType": 1, "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live/test1", "authInfo": "password=123456", "video": {"width": 352.0, "height": 288.0, "bitrate": 200, "iframe": 50, "framerate": 15}}}}
+null
+
+{"ip": "192.168.9.85", "port": 80, "user": "admin", "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e85", "videoType": 1, "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live/test1", "authInfo": "password=123456", "video": {"width": 352.0, "height": 288.0, "bitrate": 200, "iframe": 50, "framerate": 15}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": 80, "user": "admin", "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e85", "videoType": 1, "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live/test1", "authInfo": "password=123456", "video": {"width": 352.0, "height": 288.0, "bitrate": 200, "iframe": 50, "framerate": 15}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": 80, "user": "admin", "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e85", "videoType": 1, "in_data": {"command": {"serverIp": "192.168.9.85", "serverPort": 8081, "pubName": "/live/test1", "authInfo": "", "video": {"width": 352.0, "height": 288.0, "bitrate": 200, "iframe": 50, "framerate": 15}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": 80, "user": "admin", "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e85", "videoType": 1, "in_data": {"command": {"serverIp": "192.168.9.85", "serverPort": 8081, "pubName": "joyware/stream", "authInfo": "", "video": {"width": 352.0, "height": 288.0, "bitrate": 200, "iframe": 50, "framerate": 15}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": 80, "user": "admin", "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e85", "videoType": 1, "in_data": {"command": {"serverIp": "192.168.9.85", "serverPort": 8081, "pubName": "joyware/stream", "authInfo": "", "video": {"width": 352.0, "height": 288.0, "bitrate": 200, "iframe": 50, "framerate": 15}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": 80, "user": "admin", "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e85", "videoType": 1, "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live/test1", "authInfo": "", "video": {"width": 352.0, "height": 288.0, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": 80, "user": "admin", "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e85", "videoType": 1, "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live/test1", "authInfo": "", "video": {"width": 352.0, "height": 288.0, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": 80, "user": "admin", "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e85", "videoType": 1, "in_data": {"command": {"serverIp": "192.168.9.85", "serverPort": 8081, "pubName": "joyware/stream", "authInfo": "", "video": {"width": 352.0, "height": 288.0, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": 80, "user": "admin", "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e85", "videoType": 1, "in_data": {"command": {"serverIp": "192.168.9.85", "serverPort": 8081, "pubName": "joyware/stream", "authInfo": "", "video": {"width": 352.0, "height": 288.0, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": 80, "user": "admin", "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e85", "videoType": 1, "in_data": {"command": {"serverIp": "192.168.9.85", "serverPort": 8081, "pubName": "joyware/stream", "authInfo": "", "video": {"width": 352.0, "height": 288.0, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": 80, "user": "admin", "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e85", "videoType": 0, "in_data": {"command": {"serverIp": "192.168.9.85", "serverPort": 8081, "pubName": "joyware/stream", "authInfo": "", "video": {"width": 352.0, "height": 288.0, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": 80, "user": "admin", "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "videoType": 0, "in_data": {"command": {"serverIp": "192.168.9.85", "serverPort": 8081, "pubName": "joyware/stream", "authInfo": "", "video": {"width": 352.0, "height": 288.0, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": 80, "user": "admin", "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "videoType": 0, "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live/test1", "authInfo": "", "video": {"width": 352.0, "height": 288.0, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": 80, "user": "admin", "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "videoType": 0, "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live/test1", "authInfo": "", "video": {"width": 352.0, "height": 288.0, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": 80, "user": "admin", "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "videoType": 0, "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live/test1", "authInfo": "", "video": {"width": 352.0, "height": 288.0, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": 80, "user": "admin", "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "videoType": 0, "command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352.0, "height": 288.0, "bitrate": 512, "iframe": 50, "framerate": 25}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": 80, "user": "admin", "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "videoType": 0, "command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352.0, "height": 288.0, "bitrate": 512, "iframe": 50, "framerate": 25}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": 80, "user": "admin", "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "videoType": 0, "command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352.0, "height": 288.0, "bitrate": 512, "iframe": 50, "framerate": 25}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": 80, "user": "admin", "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "videoType": 0, "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352.0, "height": 288.0, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+null
+
+{"ip": "192.168.9.85", "port": 80, "user": "admin", "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "videoType": 0, "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352.0, "height": 288.0, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+null
+
+{"ip": "192.168.9.85", "port": 443, "user": "admin", "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "videoType": 0, "command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352.0, "height": 288.0, "bitrate": 512, "iframe": 50, "framerate": 25}}}
+{"msg": "成功", "code": 200}
+
+{"params": {"queryType": 4}}
+{"params": {"queryType": 4}}
+{"ip": "192.168.9.85", "port": 443, "user": "admin", "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "videoType": 0, "command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352.0, "height": 288.0, "bitrate": 512, "iframe": 50, "framerate": 25}}}
+{"msg": "成功", "code": 200}
+
+{"params": {"queryType": 4}, "json_data": "{\n  \"ip\": \"192.168.9.85\",\n  \"port\": 8081,\n  \"user\": \"admin\",\n  \"cameraNum\": \"51b4eca4-3d7c-4a7d-82dc-71fdcbc35e85\",\n  \"videoType\": 1,\n  \"command\": {\n    \"serverIp\": \"192.168.9.8\",\n    \"serverPort\": 1935,\n    \"pubName\": \"/live/test1\",\n    \"authInfo\": \"password=123456\",\n    \"video\": {\n      \"width\": 352,\n      \"height\": 288,\n      \"bitrate\": 200,\n      \"iframe\": 50,\n      \"framerate\": 15\n    }\n  }\n}"}
+{"queryType": 4, "ip": "192.168.9.85", "port": 8081, "user": "admin", "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e85", "videoType": 1, "serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live/test1", "authInfo": "password=123456", "width": 352, "height": 288, "bitrate": 200, "iframe": 50, "framerate": 15}
+ImmutableMultiDict([('queryType', '4'), ('ip', '192.168.9.85'), ('port', '8081'), ('user', 'admin'), ('cameraNum', '51b4eca4-3d7c-4a7d-82dc-71fdcbc35e85'), ('videoType', '1'), ('serverIp', '192.168.9.8'), ('serverPort', '1935'), ('pubName', '/live/test1'), ('authInfo', 'password=123456'), ('width', '352'), ('height', '288'), ('bitrate', '200'), ('iframe', '50'), ('framerate', '15')])
+ImmutableMultiDict([('queryType', '4'), ('ip', '192.168.9.85'), ('port', '8081'), ('user', 'admin'), ('cameraNum', '51b4eca4-3d7c-4a7d-82dc-71fdcbc35e85'), ('videoType', '1'), ('serverIp', '192.168.9.8'), ('serverPort', '1935'), ('pubName', '/live/test1'), ('authInfo', 'password=123456'), ('width', '352'), ('height', '288'), ('bitrate', '200'), ('iframe', '50'), ('framerate', '15')])
+null
+
+ImmutableMultiDict([('queryType', '4'), ('ip', '192.168.9.85'), ('port', '8081'), ('user', 'admin'), ('cameraNum', '51b4eca4-3d7c-4a7d-82dc-71fdcbc35e85'), ('videoType', '1'), ('serverIp', '192.168.9.8'), ('serverPort', '1935'), ('pubName', '/live/test1'), ('authInfo', 'password=123456'), ('width', '352'), ('height', '288'), ('bitrate', '200'), ('iframe', '50'), ('framerate', '15')])
+null
+
+ImmutableMultiDict([('queryType', '4'), ('ip', '192.168.9.85'), ('port', '8081'), ('user', 'admin'), ('cameraNum', '51b4eca4-3d7c-4a7d-82dc-71fdcbc35e85'), ('videoType', '1'), ('serverIp', '192.168.9.8'), ('serverPort', '1935'), ('pubName', '/live/test1'), ('authInfo', 'password=123456'), ('width', '352'), ('height', '288'), ('bitrate', '200'), ('iframe', '50'), ('framerate', '15')])
+null
+
+ImmutableMultiDict([('queryType', '4'), ('ip', '192.168.9.85'), ('port', '8081'), ('user', 'admin'), ('cameraNum', '51b4eca4-3d7c-4a7d-82dc-71fdcbc35e85'), ('videoType', '1'), ('serverIp', '192.168.9.8'), ('serverPort', '1935'), ('pubName', '/live/test1'), ('authInfo', 'password=123456'), ('width', '352'), ('height', '288'), ('bitrate', '200'), ('iframe', '50'), ('framerate', '15')])
+null
+
+ImmutableMultiDict([('queryType', '4'), ('ip', '192.168.9.85'), ('port', '8081'), ('user', 'admin'), ('cameraNum', '51b4eca4-3d7c-4a7d-82dc-71fdcbc35e85'), ('videoType', '1'), ('serverIp', '192.168.9.8'), ('serverPort', '1935'), ('pubName', '/live/test1'), ('authInfo', 'password=123456'), ('width', '352'), ('height', '288'), ('bitrate', '200'), ('iframe', '50'), ('framerate', '15')])
+null
+
+ImmutableMultiDict([('queryType', '4'), ('ip', '192.168.9.85'), ('port', '443'), ('user', 'admin'), ('cameraNum', '51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84'), ('videoType', '0'), ('serverIp', '192.168.9.8'), ('serverPort', '1935'), ('pubName', '/live'), ('authInfo', ''), ('width', '352'), ('height', '288'), ('bitrate', '512'), ('iframe', '50'), ('framerate', '25')])
+{"msg": "成功", "code": 200}
+
+ImmutableMultiDict([('queryType', '4'), ('ip', '192.168.9.85'), ('port', '443'), ('user', 'admin'), ('cameraNum', '51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84'), ('videoType', '0'), ('serverIp', '192.168.9.8'), ('serverPort', '1935'), ('pubName', '/live'), ('authInfo', ''), ('width', '352'), ('height', '288'), ('bitrate', '512'), ('iframe', '50'), ('framerate', '25')])
+{"msg": "成功", "code": 200}
+
+ImmutableMultiDict([('queryType', '4'), ('ip', '192.168.9.85'), ('port', '443'), ('user', 'admin'), ('cameraNum', '51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84'), ('videoType', '0'), ('serverIp', '192.168.9.8'), ('serverPort', '1935'), ('pubName', '/live'), ('authInfo', ''), ('width', '352'), ('height', '288'), ('bitrate', '512'), ('iframe', '50'), ('framerate', '25')])
+{"msg": "成功", "code": 200}
+
+ImmutableMultiDict([('queryType', '4'), ('ip', '192.168.9.85'), ('port', '443'), ('user', 'admin'), ('cameraNum', '51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84'), ('videoType', '0'), ('serverIp', '192.168.9.8'), ('serverPort', '1935'), ('pubName', '/live'), ('authInfo', ''), ('width', '352'), ('height', '288'), ('bitrate', '512'), ('iframe', '50'), ('framerate', '25')])
+{"msg": "成功", "code": 200}
+
+ImmutableMultiDict([('queryType', '4'), ('ip', '192.168.9.85'), ('port', '443'), ('user', 'admin'), ('cameraNum', '51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84'), ('videoType', '0'), ('serverIp', '192.168.9.8'), ('serverPort', '1935'), ('pubName', '/live'), ('authInfo', ''), ('width', '352'), ('height', '288'), ('bitrate', '512'), ('iframe', '50'), ('framerate', '25')])
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "448", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+video_trans_begin 响应失败
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "442", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+video_trans_begin 响应失败
+
+{"ip": "192.168.9.85", "port": "444", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+video_trans_begin 响应失败
+
+{"ip": "192.168.9.84", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+video_trans_begin 响应失败
+
+{"ip": "192.168.9.88", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+video_trans_begin 响应失败
+
+{"ip": "192.168.9.88", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+video_trans_begin 响应失败
+
+{"ip": "192.168.9.87", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+video_trans_begin 响应失败
+
+{"ip": "192.168.9.88", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+video_trans_begin 响应失败
+
+{"ip": "192.168.9.4", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+video_trans_begin 响应失败
+
+{"ip": "192.168.9.89", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+video_trans_begin 响应失败
+
+{"ip": "192.168.9.88", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+video_trans_begin 响应失败
+
+{"ip": "192.168.9.22", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+video_trans_begin 响应失败
+
+{"ip": "192.168.9.22", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live/123", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+video_trans_begin 响应失败
+
+{"ip": "192.168.9.89", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+video_trans_begin 响应失败
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 344, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 302, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 22, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 220, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 220, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+null
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
+{"ip": "192.168.9.85", "port": "443", "user": "admin", "videoType": 0, "cameraNum": "51b4eca4-3d7c-4a7d-82dc-71fdcbc35e84", "in_data": {"command": {"serverIp": "192.168.9.8", "serverPort": 1935, "pubName": "/live", "authInfo": "", "video": {"width": 352, "height": 288, "bitrate": 512, "iframe": 50, "framerate": 25}}}}
+{"msg": "成功", "code": 200}
+
