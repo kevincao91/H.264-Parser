@@ -1,4 +1,5 @@
 ﻿from settings import Settings, Player
+import csv
 import os
 import tkinter
 import tkinter.ttk
@@ -14,6 +15,7 @@ import json
 os.environ['PYTHON_VLC_MODULE_PATH'] = r"./lib/vlc-3.0.8-win64"
 # os.environ['PYTHON_VLC_LIB_PATH'] = r"./lib/vlc-3.0.8-win64/libvlc.dll"
 import vlc
+
 
 # img1_gif = None
 # img2_gif = None
@@ -146,12 +148,14 @@ class AppGUI(object):
         self.rtmp_url_combox_list.insert(0, '请输入或点击右侧箭头选择需要测试的视频流地址')
 
         self.rtmp_url_combox_list.bind('<<ComboboxSelected>>', self.rtmp_url_combox_list_change)
+        self.rtmp_url_combox_list.bind('<Return>', self.rtmp_url_combox_list_change)
         # self.rtmp_url_combox_list.bind('<FocusOut>', self.rtmp_url_combox_list_change)
 
         self.sample_time_combox_list = tkinter.ttk.Combobox(step1_group, width=30)  # 初始化
         self.sample_time_combox_list.insert(0, '请点击右侧箭头选择视频流采集时长')
         self.sample_time_combox_list["values"] = ("10s", "30s", "60s", "90s")
         self.sample_time_combox_list.bind('<<ComboboxSelected>>', self.sample_time_combox_list_change)
+        self.sample_time_combox_list.bind('<Return>', self.sample_time_combox_list_change)
 
         # 设定输入框
         self.min_entry = tkinter.Entry(step4_group, width=5)
@@ -164,8 +168,8 @@ class AppGUI(object):
         self.button_2 = tkinter.Button(step2_group, font=ft1, text='开始提取！', command=self.get_h264_btn_fun)
         self.button_3 = tkinter.Button(step3_group, font=ft1, text='分析码流！', command=self.parse_h264code_btn_fun)
         self.button_4 = tkinter.Button(step4_group, font=ft1, text='分析码率！', command=self.parse_h264bitrate_btn_fun)
-        self.button_5 = tkinter.Button(step4_group, font=ft1, text='计算波动！', command=self.calculate_btn_fun)
-
+        # self.button_5 = tkinter.Button(step4_group, font=ft1, text='计算波动！', command=self.calculate_btn_fun)
+        self.button_5 = tkinter.Button(step4_group, font=ft1, text='计算波动！', command=self.calculate_new_btn_fun)
         # 创建一个Listbox
         self.display_info = tkinter.Listbox(self.root_window, height=6, width=50)
         self.global_set.display_info = self.display_info
@@ -284,8 +288,10 @@ class AppGUI(object):
         menu_c3.add_command(label='开启VLC播放器', command=self.open_vlc_pro_fun)
         # 下拉菜单4
         menu_c4 = tkinter.Menu(self.root_window, tearoff=0)
-        for item in ['版权信息', '其他说明']:
-            menu_c4.add_command(label=item, command=self.show_info_fun)
+        menu_c4.add_command(label='版权信息', command=self.show_info_fun)
+        menu_c4.add_command(label='其他说明', command=self.show_info_fun)
+        # 功能测试菜单
+        # menu_c4.add_command(label='其他说明', command=self.calculate_new_btn_fun)
         # 指明父菜单
         menu_bar.add_cascade(label="测试步骤", menu=menu_c1)
         menu_bar.add_cascade(label="测试配置", menu=menu_c2)
@@ -420,6 +426,8 @@ class AppGUI(object):
         shutil.move("./output/parser.h264", out)
         out = os.path.join(self.get_record_dir(), 'test.flv')
         shutil.move("./output/test.flv", out)
+        out = os.path.join(self.get_record_dir(), 'Stream Info.csv')
+        shutil.move("./output/Stream Info.csv", out)
         string = '测试码流记录文件，已保存到%s。' % self.get_record_dir()
         self.global_set.print_gui(string)
 
@@ -596,7 +604,8 @@ class AppGUI(object):
         else:
             string = '开始执行h264码率分析程序 ... ...'
             self.global_set.print_gui(string)
-            sh = r'./lib/Bitrate Viewer 2.3/BitrateViewer.exe'
+            # sh = r'./lib/Bitrate Viewer 2.3/BitrateViewer.exe'
+            sh = r'C:\Program Files (x86)\Elecard\Elecard StreamEye Studio\Elecard StreamEye\ESEyeApp_lite.exe'
             args = r''
             try:
                 sub_p = subprocess.Popen(sh + ' ' + args, cwd=r'./output/')
@@ -646,6 +655,70 @@ class AppGUI(object):
             self.result_entry.delete(0, tkinter.END)
             self.result_entry.insert(0, result_str)
             string = '码率波动计算完成，波动率为：%s。' % result_str
+            self.global_set.print_gui(string)
+            tkinter.messagebox.showinfo('提示', string)
+            self.save_record_files()
+            string = '已结束所有码流测试内容，请做好记录。\n如需开始新测试，请完成 <测试配置> 后进行。'
+            self.global_set.print_gui(string)
+            tkinter.messagebox.showinfo('提示', string)
+            # 改变按键状态
+            self.button_contrl(4)
+        else:
+            string = '码率波动计算失败。'
+            self.global_set.print_gui(string)
+            tkinter.messagebox.showerror('错误', '计算失败！请重新输入数值：')
+
+    # 主界面 - 计算h264码率波动功能 NEW
+    def calculate_new_btn_fun(self):
+        # 改变按键状态
+        self.button_contrl(4, 2)
+        string = '开始码率波动计算 ... ...'
+        self.global_set.print_gui(string)
+        check_flag = True
+
+        #
+        avg_all = 0
+        res_I = 0
+        res_P = 0
+        try:
+            with open("./output/Stream Info.csv", "r") as csvfile:
+                reader = csv.reader(csvfile)
+                # 这里不需要readlines
+                info_dict = {}
+                for idx, line in enumerate(reader):
+                    if idx == 10:
+                        info_dict["avg"] = int(line[0].replace(' ', '').split(':')[-1])
+                    if idx == 11:
+                        avg_I, max_I = map(int, line[0].replace(' ', '').split(':')[-1].split('/'))
+                        info_dict["avg_I"] = avg_I
+                        info_dict["max_I"] = max_I
+                    if idx == 12:
+                        avg_P, max_P = map(int, line[0].replace(' ', '').split(':')[-1].split('/'))
+                        info_dict["avg_P"] = avg_P
+                        info_dict["max_P"] = max_P
+                print(info_dict)
+
+                # 平均码率
+                avg_ = info_dict["avg"]
+                avg_all = avg_ * 8 * 25 / 1000
+                print('平均码率：{:.2f} Kbps'.format(avg_all))
+                # I帧波动
+                avg_I = info_dict["avg_I"]
+                max_I = info_dict["max_I"]
+                res_I = 100 * (max_I - avg_I) / avg_I
+                print('I帧码率波动：{:.2f} %'.format(res_I))
+                # I帧波动
+                avg_P = info_dict["avg_P"]
+                max_P = info_dict["max_P"]
+                res_P = 100 * (max_P - avg_P) / avg_P
+                print('P帧码率波动：{:.2f} %'.format(res_P))
+        except:
+            check_flag = False
+
+        # check
+        if check_flag:
+            string = '码率分析计算完成，平均码率：{:.2f} Kbps\n' \
+                     'I帧码率波动：{:.2f} %，P帧码率波动：{:.2f} %'.format(avg_all, res_I, res_P)
             self.global_set.print_gui(string)
             tkinter.messagebox.showinfo('提示', string)
             self.save_record_files()
